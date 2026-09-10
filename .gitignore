@@ -22,6 +22,9 @@ week*/Week*_*
 !week*/Week*_*.cpp
 
 # Review 실행파일
-
 **/assign[0-9]*
 !**/assign[0-9]*.cpp
+
+# 예제 실행파일
+**/예제[0-9]*
+!**/예제[0-9]*.cpp
