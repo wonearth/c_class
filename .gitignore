@@ -18,7 +18,10 @@
 *.exe
 
 # Executables generated inside week folders
-
 week*/Week*_*
-
 !week*/Week*_*.cpp
+
+# Review 실행파일
+
+**/assign[0-9]*
+!**/assign[0-9]*.cpp
