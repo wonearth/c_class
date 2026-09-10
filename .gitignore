@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Images
+*.png
+*.jpg
+*.jpeg
+
+# Archives
+*.zip
+
+# C/C++ build files
+*.o
+*.out
+*.exe
+
+# Executables generated inside week folders
+
+week*/Week*_*
+
+!week*/Week*_*.cpp
