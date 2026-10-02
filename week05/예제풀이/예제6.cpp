@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+class Circle{
+    int radius;
+public:
+    Circle() { radius=1; }
+    Circle(int radius){ this -> radius = radius; }
+    void setradius(int radius) {this -> radius = radius; }
+    double getarea() { return 3.14 * radius * radius; }
+};
+
+void readRadius(Circle &c){
+    int r; cout << "정수 값으로 반지름을 입력하세요>>"; cin >> r;
+    c.setradius(r);
+}
+
+int main(){
+    Circle donut;
+    readRadius(donut);
+    cout << "원의 면적: " << donut.getarea() << endl;
+}
