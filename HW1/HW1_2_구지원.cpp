@@ -42,6 +42,11 @@ int* ArrayUtil::remove(int s1[], int s2[], int size, int& reSize){
 }
 
 int main() {
+    cout << "==============" << endl;
+    cout << "학과: 컴퓨터공학과" << endl << "학번: 2376018" << endl;
+    cout << "이름: 구지원" << endl;
+    cout << "==============" << endl;
+    
     int n; cout << "정수배열크기 : "; cin >> n;
 
     cout << "Input " << n << " integers for Array A" << endl;

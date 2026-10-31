@@ -17,7 +17,7 @@ bool Time::isValid(int hour, int minute){       // 밖에서 선언할 때는 st
 }
 void Time::setTime(int hour, int minute){   
     if(isValid(hour, minute) == true) {     // 입력값이 올바르게 잘 들어가면
-        this->hour=hour; this->minute=minute;   // hout, minute 저장
+        this->hour=hour; this->minute=minute;   // hour, minute 저장
     }
 }
 int Time::getTime(char ch){     

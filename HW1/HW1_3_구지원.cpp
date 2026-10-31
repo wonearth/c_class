@@ -32,6 +32,11 @@ Book::Book(const Book& b){      // 복사 생성자
 }
 
 int main() {
+    cout << "==============" << endl;
+    cout << "학과: 컴퓨터공학과" << endl << "학번: 2376018" << endl;
+    cout << "이름: 구지원" << endl;
+    cout << "==============" << endl;
+
     Book cpp("CPP", 15000);     // 매개변수 있는 일반 생성자 호출
     Book java = cpp;       // 복사생성자 호출
     Book python;
