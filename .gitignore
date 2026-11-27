@@ -33,3 +33,7 @@ week*/Week*_*
 
 HW*/HW*_*
 !HW*/HW*_*.cpp
+
+*.xls
+*.dat
+*.txt
